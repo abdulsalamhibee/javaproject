@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+body{ 
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #f1ebe3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#sub-menu{
+    display: none;
+}
+.sub-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+menu{
+    display: none;
+}
+header{
+    padding: 2rem 1rem;
+}
+#sub-menu{
+    background-color: #ffff;
+    color: rgb(66, 66, 66);
+    position: absolute;
+    top: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+#sub-menu p {
+font-size: 12px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 p { 
+    font-weight: bold;
+}
+.box2{
+ display: flex;
+ padding: 0.8rem 0.6rem;   
+}
+#Text {
+    margin-left: 0.5rem;
+}
+
+.box2 svg {
+   width:100% ;
+   padding-right: 10px;
+}
+
+/*---------HERO SECTION-------------*/
+.container {
+    padding: 1rem 1rem;
+}
+.col1 p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.col1 span{
+    color: #f6b301;
+}
+.col2 p {
+    padding-top: 0.5rem;
+    font-size: 12px;
+    color: rgb(97, 96, 96);
+}
+
+#free {
+ display:inline-block;
+ color: #ffff;
+ background-color: #143417;
+ text-decoration: none;
+ outline: none;
+ padding: 15px 20px;
+ font-size: 12px;
+ margin:0.5rem 0 0.5rem 0 ;
+ border-radius: 4px;
+}
+.col3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col3 p {
+    padding: 1.5rem 0;
+    font-size: 12px;
+    color: rgb(97, 96, 96);
+}
+
+
+/*--------Footer section-----------*/
+.footer{
+    padding: 2rem 1rem;
+}
+.footer p {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(97, 96, 96);
+}
+.companies{
+    padding-top: 1.3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.8rem;
+    
+}
+.companies svg {
+    width: 100%;
+}
